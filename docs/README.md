@@ -4,13 +4,59 @@ Welcome to OctoAcme's project management documentation! This guide serves as you
 
 ## Introduction
 
-At OctoAcme, we follow a structured yet flexible approach to project management that balances planning with adaptability. Our five-phase project lifecycle—**Initiation**, **Planning**, **Execution**, **Release**, and **Close & Retrospective**—provides a clear framework for taking ideas from concept to production. During Initiation, we validate the business need and align stakeholders. In Planning, we break work into shippable increments and identify dependencies. Execution focuses on building, testing, and iterating with daily standups and weekly syncs. Release ensures we deploy safely with proper verification and rollback plans. Finally, Close & Retrospective captures learnings and converts them into actionable improvements for future projects.
+At OctoAcme, we follow a structured yet flexible approach to project management that balances planning with adaptability. Our five-phase project lifecycle—**Initiation**, **Planning**, **Execution**, **Release**, and **Close & Retrospective**—provides a clear framework for taking ideas from concept to production.
 
-Our project management approach is driven by core principles that shape how we work together. We put customers first by prioritizing customer value and usability in every decision. We practice iterative delivery, shipping small testable increments rather than waiting for perfection. Clear ownership is essential—each project has a named Project Manager who coordinates delivery, schedules, risk, and communications, along with a Product Manager who defines outcomes, prioritizes the backlog, and measures success. We make data-informed decisions by measuring impact and iterating based on evidence. Above all, we foster psychological safety, encouraging team members to provide feedback, share concerns, and learn from both successes and failures without fear of blame.
+Each phase has a distinct purpose: During **Initiation**, we validate the business need and align stakeholders. In **Planning**, we break work into shippable increments and identify dependencies. **Execution** focuses on building, testing, and iterating with daily standups and weekly syncs. **Release** ensures we deploy safely with proper verification and rollback plans. Finally, **Close & Retrospective** captures learnings and converts them into actionable improvements for future projects.
 
-Our execution model emphasizes team rhythms, quality gates, and workflow management. Teams follow a regular cadence with daily 15-minute standups focused on progress and blockers, weekly delivery syncs to review progress and flag risks, and sprint demos to showcase completed work. We use GitHub Projects to manage our workflow with clear columns: Backlog, Ready, In Progress, In Review, QA, and Done. Quality is built in through unit tests, integration tests, security scanning in CI, and manual QA when needed. Pull requests are kept small (≤400 lines when possible), include clear acceptance criteria, and require automated tests to pass before merging. This disciplined approach helps us maintain velocity while ensuring high standards.
+### Core Principles and Roles
 
-Communication and risk management are woven throughout our processes. We maintain weekly syncs between Project Managers and Product Managers, twice-weekly team standups, and monthly stakeholder updates. Risks are tracked in a Risk Register with clear ownership and mitigation plans, reviewed weekly and escalated when needed. We document decisions, maintain a single source of truth for project status, and follow defined escalation paths. After every sprint, release, or significant milestone, we conduct retrospectives to capture what went well, what could be improved, and commit to 2–3 actionable improvements. This continuous improvement culture ensures we learn from every project and steadily enhance our processes.
+Our project management approach is driven by core principles that shape how we work together:
+
+- **Customer-first**: Prioritize customer value and usability in every decision
+- **Iterative delivery**: Ship small testable increments rather than waiting for perfection
+- **Clear ownership**: Each project has a named Project Manager (coordinates delivery, schedules, risk, communications) and Product Manager (defines outcomes, prioritizes backlog, measures success)
+- **Data-informed decisions**: Measure impact and iterate based on evidence
+- **Psychological safety**: Encourage feedback, sharing concerns, and learning from both successes and failures without fear of blame
+
+### Execution Model
+
+Our execution model emphasizes team rhythms, quality gates, and workflow management:
+
+**Team Rhythms:**
+- Daily 15-minute standups focused on progress and blockers
+- Weekly delivery syncs to review progress and flag risks
+- Sprint demos to showcase completed work
+
+**Workflow Management:**
+- Use GitHub Projects with clear columns: Backlog, Ready, In Progress, In Review, QA, Done
+- Keep pull requests small (≤400 lines when possible)
+- Include clear acceptance criteria and require automated tests to pass before merging
+
+**Quality Gates:**
+- Unit tests, integration tests, and security scanning in CI
+- Manual QA when needed
+- This disciplined approach helps us maintain velocity while ensuring high standards
+
+### Communication and Continuous Improvement
+
+Communication and risk management are woven throughout our processes:
+
+**Communication Cadence:**
+- Weekly syncs between Project Managers and Product Managers
+- Twice-weekly team standups
+- Monthly stakeholder updates
+- Single source of truth for project status with defined escalation paths
+
+**Risk Management:**
+- Track risks in a Risk Register with clear ownership and mitigation plans
+- Review weekly and escalate when needed
+- Document decisions and maintain transparency
+
+**Continuous Improvement:**
+- Conduct retrospectives after every sprint, release, or significant milestone
+- Capture what went well and what could be improved
+- Commit to 2–3 actionable improvements per retrospective
+- This culture ensures we learn from every project and steadily enhance our processes
 
 ## Process Documents
 
