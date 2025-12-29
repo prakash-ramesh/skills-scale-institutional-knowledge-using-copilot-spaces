@@ -43,7 +43,7 @@ Communication and risk management are woven throughout our processes:
 
 **Communication Cadence:**
 - Weekly syncs between Project Managers and Product Managers
-- Twice-weekly team standups
+- Daily team standups (15 minutes)
 - Monthly stakeholder updates
 - Single source of truth for project status with defined escalation paths
 
